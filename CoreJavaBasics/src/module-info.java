@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author laurenhammonds
- *
- */
-module CoreJavaBasics {
-}
