@@ -1,0 +1,23 @@
+.ipod-box {
+    align: center;
+    height:300px;
+    width:150px;
+    border:1px solid #979797;
+    border-radius: 25px; 
+    padding:25px;
+    margin-top:15 !important; 
+    margin-bottom:15;
+    margin-right:300px;
+    margin-left:300px;
+    background-image: linear-gradient(#F8F8F7,#898989);
+    box-shadow: inset 0px 0px 10px #535353;
+}
+.ipod-screen {
+    align: center;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    height: 150px;
+    border: 1px solid #35333A;
+    border-radius: 15px;
+}
