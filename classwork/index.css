@@ -1,0 +1,51 @@
+.border-box {
+    border:10px; 
+    border-top:25px;
+    border-right:15px;
+    border-style: solid;
+    border-radius:25px;
+    padding:25px;
+    margin-top:50px !important; 
+    margin:15px;
+    background-color:#e687da;
+}
+.title-box {
+    margin: 40px;
+    padding: 20px;
+    border: 3px solid #ff0000;
+}
+
+.first-box {
+    margin: 40px;
+    padding: 20px;
+    border: 3px solid #CCCCCC;
+}
+
+.second-box {
+    margin: 30px 10px 20px 0px;
+    padding: 20px 0px 20px 10px;
+    border: 5px solid #C7C2A1;
+    width: 500px;
+    background-color: #F3F1DC;
+    font-size: 30px;
+    color: #00B29E;
+}
+
+p{
+    margin: 0;
+}
+
+/* this affects all p in border-box class */
+.border-box>p {
+    color: #00ffa6
+}
+
+h1 {
+    color: #30006e
+}
+
+h2:hover {
+    background-color:#567bff
+}
+
+
