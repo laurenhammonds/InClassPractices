@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+    margin: 0;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block; /* responsive */
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* removes underline from link*/
+  }
+  
+  .navbar a.right {
+    float: right;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbutton {
+    background-color: rgb(255, 214, 248);
+    color: black;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbutton {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 214, 248);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .options {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 214, 248);
+    min-width: 160px;
+    z-index: 1; /* keep on top */
+  }
+  
+  .options a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .options a:hover {
+    background-color: rgb(255, 151, 238);
+  }
+  
+  .dropdown:hover .options {
+    display: block;
+  }
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 214, 248);
+  }
+  
+  .header h1 {
+    font-size: 40px;
+  }
+  
+.row {  
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; /* keeps side menu to the side*/
+  }
+
+ .side {
+    -ms-flex: 20%;
+    flex: 20%;
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    z-index: 1; /* keep on top */
+  }
+
+  .mainleft {
+    flex: 40%;
+    background-color: #333333;
+    padding: 20px;
+  }
+  .mainright {
+    flex: 40%;
+    background-color: #333333;
+    padding: 20px;
+  }
+
+  .bg-image {
+  flex: 80%;
+  height:800px;
+  width:100%;
+  background-size: 80%;
+  background-size: cover;
+}
+
+.img1 { background-image: url("https://picsum.photos/id/40/367/267"); }
+.img2 { background-image: url("https://picsum.photos/id/147/367/267"); }
+.img3 { background-image: url("https://picsum.photos/id/517/367/267"); }
+.img4 { background-image: url("https://picsum.photos/id/38/367/267"); }
+.img5 { background-image: url("https://picsum.photos/id/56/367/267"); }
+.img6 { background-image: url("https://picsum.photos/id/106/367/267"); }
+
+
+.boxes {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* responsive */
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(255, 214, 248);
+  }
